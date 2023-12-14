@@ -1,0 +1,20 @@
+[project]
+name = "data_management"
+authors = [
+    { name = "Jibreel Abdeen", email = "j_abdeen@yahoo.com"}
+]
+description = "special application to collect and document enterprise data project and generate data catalog"
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = ["version"]
+dependencies = [
+    # "frappe~=15.0.0" # Installed and managed by bench.
+]
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+# These dependencies are only installed when developer mode is enabled
+[tool.bench.dev-dependencies]
+# package_name = "~=1.1.0"
