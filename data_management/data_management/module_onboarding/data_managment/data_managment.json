@@ -1,0 +1,44 @@
+{
+ "allow_roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "B2B Manager"
+  }
+ ],
+ "creation": "2023-12-14 14:49:10.678036",
+ "docstatus": 0,
+ "doctype": "Module Onboarding",
+ "documentation_url": "//",
+ "idx": 0,
+ "is_complete": 0,
+ "modified": "2023-12-14 15:05:16.394040",
+ "modified_by": "Administrator",
+ "module": "Data Management",
+ "name": "Data Managment",
+ "owner": "Administrator",
+ "steps": [
+  {
+   "step": "Setup Subsidiary"
+  },
+  {
+   "step": "Create Organization Structure"
+  },
+  {
+   "step": "Create Business Applications - General Informations"
+  },
+  {
+   "step": "Create Technical Systems"
+  },
+  {
+   "step": "Update Business Applications - Technical Information"
+  },
+  {
+   "step": "Create Entities metadata - technnical"
+  }
+ ],
+ "subtitle": "Subsidery, System, Organization Structure, Application, Data Dictionary",
+ "success_message": "The Data Management Module is all set up!",
+ "title": "Let's Manage Data Module."
+}

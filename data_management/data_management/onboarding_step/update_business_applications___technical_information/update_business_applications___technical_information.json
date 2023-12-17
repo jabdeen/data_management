@@ -1,0 +1,19 @@
+{
+ "action": "Create Entry",
+ "creation": "2023-12-14 14:45:40.089279",
+ "docstatus": 0,
+ "doctype": "Onboarding Step",
+ "idx": 1,
+ "is_complete": 0,
+ "is_single": 0,
+ "is_skipped": 0,
+ "modified": "2023-12-14 14:56:29.280145",
+ "modified_by": "Administrator",
+ "name": "Update Business Applications - Technical Information",
+ "owner": "Administrator",
+ "reference_document": "subsidiary applications",
+ "show_form_tour": 0,
+ "show_full_form": 0,
+ "title": "Update Business Applications - Technical Information",
+ "validate_action": 1
+}

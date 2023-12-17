@@ -1,0 +1,153 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:system_name",
+ "creation": "2023-12-14 10:24:56.143770",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "genral_section",
+  "system_name",
+  "vendor",
+  "column_break_zmmu",
+  "system_type",
+  "version",
+  "technical_section",
+  "database_server",
+  "database_type",
+  "column_break_alms",
+  "link_address",
+  "life_cycle"
+ ],
+ "fields": [
+  {
+   "fieldname": "system_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "System Type"
+  },
+  {
+   "fieldname": "vendor",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Vendor"
+  },
+  {
+   "fieldname": "version",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Version"
+  },
+  {
+   "fieldname": "database_server",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Database Server"
+  },
+  {
+   "fieldname": "link_address",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Link Address "
+  },
+  {
+   "fieldname": "life_cycle",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Life Cycle",
+   "options": "Production\nEnd of Life\nRetired\nUnder development\nRoll out"
+  },
+  {
+   "fieldname": "genral_section",
+   "fieldtype": "Section Break",
+   "label": "Genral"
+  },
+  {
+   "fieldname": "column_break_zmmu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "technical_section",
+   "fieldtype": "Section Break",
+   "label": "Technical"
+  },
+  {
+   "fieldname": "database_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Database Type"
+  },
+  {
+   "fieldname": "column_break_alms",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "system_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "System Name",
+   "unique": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-14 15:27:07.187298",
+ "modified_by": "Administrator",
+ "module": "Data Management",
+ "name": "subsidiary system",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "B2B Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "STC Core Project Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1
+}

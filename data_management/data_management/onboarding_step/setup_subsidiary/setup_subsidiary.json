@@ -1,0 +1,19 @@
+{
+ "action": "Create Entry",
+ "creation": "2023-12-14 14:39:23.052162",
+ "docstatus": 0,
+ "doctype": "Onboarding Step",
+ "idx": 1,
+ "is_complete": 0,
+ "is_single": 0,
+ "is_skipped": 0,
+ "modified": "2023-12-14 14:58:27.739048",
+ "modified_by": "Administrator",
+ "name": "Setup Subsidiary",
+ "owner": "Administrator",
+ "reference_document": "subsidiary",
+ "show_form_tour": 0,
+ "show_full_form": 0,
+ "title": "Create Subsidiary and Enter quality Data",
+ "validate_action": 1
+}

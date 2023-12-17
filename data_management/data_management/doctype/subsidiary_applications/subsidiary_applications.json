@@ -1,0 +1,200 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:application_name",
+ "creation": "2023-12-14 10:21:53.233562",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "general_section",
+  "title",
+  "column_break_ngen",
+  "application_name",
+  "column_break_awme",
+  "system_name",
+  "owners_section",
+  "steward_name",
+  "custodian_name",
+  "column_break_mnai",
+  "steward_email",
+  "custodian_email",
+  "technical_section",
+  "applicaiton_type",
+  "column_break_jetp",
+  "application_status",
+  "details_section",
+  "description",
+  "column_break_jtau",
+  "inputs_and_entities"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Link",
+   "label": "Subsidiary Name",
+   "options": "subsidiary"
+  },
+  {
+   "fieldname": "application_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Application Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "general_section",
+   "fieldtype": "Section Break",
+   "label": "General"
+  },
+  {
+   "fieldname": "column_break_ngen",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_awme",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "system_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "System Name",
+   "options": "subsidiary system"
+  },
+  {
+   "fieldname": "owners_section",
+   "fieldtype": "Section Break",
+   "label": "Owners"
+  },
+  {
+   "fieldname": "steward_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Steward Name"
+  },
+  {
+   "fieldname": "custodian_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Custodian Name"
+  },
+  {
+   "fieldname": "column_break_mnai",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "steward_email",
+   "fieldtype": "Data",
+   "label": "Steward Email"
+  },
+  {
+   "fieldname": "custodian_email",
+   "fieldtype": "Data",
+   "label": "Custodian Email"
+  },
+  {
+   "fieldname": "technical_section",
+   "fieldtype": "Section Break",
+   "label": "Technical"
+  },
+  {
+   "fieldname": "applicaiton_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Applicaiton Type"
+  },
+  {
+   "fieldname": "column_break_jetp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "application_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Application Status",
+   "options": "Production\nEnd of Life\nRetired\nUnder development\nRoll out"
+  },
+  {
+   "fieldname": "details_section",
+   "fieldtype": "Section Break",
+   "label": "Details"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Description"
+  },
+  {
+   "fieldname": "column_break_jtau",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "inputs_and_entities",
+   "fieldtype": "Text Editor",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Inputs and Entities"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-14 15:26:20.412324",
+ "modified_by": "Administrator",
+ "module": "Data Management",
+ "name": "subsidiary applications",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "B2B Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "STC Core Project Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1
+}

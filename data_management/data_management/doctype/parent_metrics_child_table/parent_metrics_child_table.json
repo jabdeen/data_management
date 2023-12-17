@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:metric_name",
+ "creation": "2023-12-14 09:31:43.252777",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "metric_name",
+  "data_steward",
+  "data_steward_email",
+  "data_custodian",
+  "data_custodian_email",
+  "column_break_hpua",
+  "metric_inputs",
+  "column_break_zect",
+  "metric_formula"
+ ],
+ "fields": [
+  {
+   "fieldname": "metric_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Metric Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "data_steward",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Data Steward"
+  },
+  {
+   "fieldname": "data_steward_email",
+   "fieldtype": "Data",
+   "label": "Data Steward Email"
+  },
+  {
+   "fieldname": "data_custodian",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Data Custodian"
+  },
+  {
+   "fieldname": "data_custodian_email",
+   "fieldtype": "Data",
+   "label": "Data Custodian Email"
+  },
+  {
+   "fieldname": "metric_inputs",
+   "fieldtype": "Text Editor",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Metric Inputs"
+  },
+  {
+   "fieldname": "column_break_hpua",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "metric_formula",
+   "fieldtype": "Text Editor",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Metric Formula"
+  },
+  {
+   "fieldname": "column_break_zect",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-14 13:30:06.675148",
+ "modified_by": "Administrator",
+ "module": "Data Management",
+ "name": "parent metrics child table",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

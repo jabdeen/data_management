@@ -1,0 +1,213 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:business_name",
+ "creation": "2023-12-14 09:00:05.672670",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "business_brief_introduction_tab",
+  "general_information_section",
+  "column_break_ddwk",
+  "business_name",
+  "stakeholders_section",
+  "data_owner",
+  "data_steward",
+  "data_custodian",
+  "column_break_axtg",
+  "data_owner_email",
+  "data_steward_email",
+  "data_custodian_email",
+  "business_metrics_section",
+  "metric_child_table",
+  "section_break_ogaj",
+  "business_description",
+  "column_break_bdfw",
+  "business_strategy",
+  "tab_2_tab",
+  "branches_and__locations_section",
+  "locations",
+  "column_break_lcwm",
+  "busines_areas",
+  "column_break_nlsg",
+  "line_of_businesses"
+ ],
+ "fields": [
+  {
+   "fieldname": "business_name",
+   "fieldtype": "Data",
+   "label": "Business Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "business_brief_introduction_tab",
+   "fieldtype": "Tab Break",
+   "label": "Business Brief Introduction"
+  },
+  {
+   "fieldname": "business_description",
+   "fieldtype": "Text Editor",
+   "label": "Business Description"
+  },
+  {
+   "fieldname": "tab_2_tab",
+   "fieldtype": "Tab Break",
+   "label": "Additional Details"
+  },
+  {
+   "fieldname": "business_strategy",
+   "fieldtype": "Text Editor",
+   "label": "Business Strategy"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "section_break_ogaj",
+   "fieldtype": "Section Break",
+   "label": "Description and Strategy"
+  },
+  {
+   "fieldname": "data_owner",
+   "fieldtype": "Data",
+   "label": "Data Owner"
+  },
+  {
+   "fieldname": "stakeholders_section",
+   "fieldtype": "Section Break",
+   "label": "Stakeholders"
+  },
+  {
+   "fieldname": "column_break_axtg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data_owner_email",
+   "fieldtype": "Data",
+   "label": "Data Owner Email"
+  },
+  {
+   "fieldname": "data_steward",
+   "fieldtype": "Data",
+   "label": "Data Steward"
+  },
+  {
+   "fieldname": "data_steward_email",
+   "fieldtype": "Data",
+   "label": "Data Steward Email"
+  },
+  {
+   "fieldname": "data_custodian",
+   "fieldtype": "Data",
+   "label": "Data Custodian"
+  },
+  {
+   "fieldname": "data_custodian_email",
+   "fieldtype": "Data",
+   "label": "Data Custodian Email"
+  },
+  {
+   "fieldname": "column_break_ddwk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "general_information_section",
+   "fieldtype": "Section Break",
+   "label": "General Information"
+  },
+  {
+   "fieldname": "branches_and__locations_section",
+   "fieldtype": "Section Break",
+   "label": "Additional Details"
+  },
+  {
+   "fieldname": "locations",
+   "fieldtype": "Text Editor",
+   "label": "Branches and Locations"
+  },
+  {
+   "fieldname": "column_break_bdfw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "busines_areas",
+   "fieldtype": "Text Editor",
+   "label": "Busines Areas"
+  },
+  {
+   "fieldname": "line_of_businesses",
+   "fieldtype": "Text Editor",
+   "label": "Line of Businesses"
+  },
+  {
+   "fieldname": "column_break_lcwm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_nlsg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "business_metrics_section",
+   "fieldtype": "Section Break",
+   "label": "Business Metrics"
+  },
+  {
+   "fieldname": "metric_child_table",
+   "fieldtype": "Table",
+   "label": "Metric Child Table",
+   "options": "parent metrics child table"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-14 15:25:28.415187",
+ "modified_by": "Administrator",
+ "module": "Data Management",
+ "name": "subsidiary",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "B2B Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "STC Core Project Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1
+}

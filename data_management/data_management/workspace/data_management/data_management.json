@@ -1,0 +1,105 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"N05tKhRIKr\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Data Management</span>\",\"col\":12}},{\"id\":\"WXfo40oLZv\",\"type\":\"card\",\"data\":{\"card_name\":\"DocTypes\",\"col\":4}},{\"id\":\"qY3b2Y0TB_\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Onboarded Subsidiaries\",\"col\":12}}]",
+ "creation": "2023-12-14 10:56:06.991226",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "file-large",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Data Management",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "DocTypes",
+   "link_count": 5,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Subsidiary",
+   "link_count": 0,
+   "link_to": "subsidiary",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Organization Structure",
+   "link_count": 0,
+   "link_to": "subsidiary organization",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Technical Structure",
+   "link_count": 0,
+   "link_to": "subsidiary system",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Application Structure",
+   "link_count": 0,
+   "link_to": "subsidiary applications",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Data Dictionary",
+   "link_count": 0,
+   "link_to": "subsidiary entities",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-12-14 15:20:13.762063",
+ "modified_by": "Administrator",
+ "module": "Data Management",
+ "name": "Data Management",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [
+  {
+   "document_type": "subsidiary",
+   "label": "Onboarded Subsidiaries",
+   "quick_list_filter": "[]"
+  }
+ ],
+ "restrict_to_domain": "",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "B2B Manager"
+  },
+  {
+   "role": "STC Core Project Manager"
+  }
+ ],
+ "sequence_id": 23.0,
+ "shortcuts": [],
+ "title": "Data Management"
+}

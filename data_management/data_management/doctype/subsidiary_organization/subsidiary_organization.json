@@ -1,0 +1,163 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:business_unit_name",
+ "creation": "2023-12-14 09:40:01.425314",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "business_units_tab",
+  "subsidiary_name",
+  "section_break_ieqh",
+  "business_unit_name",
+  "hirarchy_type",
+  "stakeholder_name",
+  "column_break_sguq",
+  "short_name",
+  "parent_link",
+  "stakeholder_email",
+  "column_break_zuai",
+  "child_subbusiness_units_or_divisions",
+  "services_details_section",
+  "business_unit_services",
+  "section_break_zeor",
+  "business_metrics"
+ ],
+ "fields": [
+  {
+   "fieldname": "subsidiary_name",
+   "fieldtype": "Link",
+   "label": "Subsidiary Name",
+   "options": "subsidiary"
+  },
+  {
+   "fieldname": "business_unit_name",
+   "fieldtype": "Data",
+   "label": "Business Unit Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "short_name",
+   "fieldtype": "Data",
+   "label": "Short Name"
+  },
+  {
+   "fieldname": "section_break_ieqh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_zuai",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "hirarchy_type",
+   "fieldtype": "Select",
+   "label": "Hirarchy Type",
+   "options": "Main Business Unit\nSub-Business Unit"
+  },
+  {
+   "fieldname": "parent_link",
+   "fieldtype": "Link",
+   "label": "Parent Link",
+   "options": "subsidiary organization"
+  },
+  {
+   "fieldname": "child_subbusiness_units_or_divisions",
+   "fieldtype": "Text Editor",
+   "label": "Child SubBusiness Units or Divisions"
+  },
+  {
+   "fieldname": "business_metrics",
+   "fieldtype": "Table",
+   "label": "Business Metrics",
+   "options": "subsidiary organization structure child"
+  },
+  {
+   "fieldname": "business_units_tab",
+   "fieldtype": "Tab Break",
+   "label": "Business Units"
+  },
+  {
+   "fieldname": "section_break_zeor",
+   "fieldtype": "Section Break",
+   "label": "Major Metrics"
+  },
+  {
+   "fieldname": "business_unit_services",
+   "fieldtype": "Text Editor",
+   "label": "Business Unit Services"
+  },
+  {
+   "fieldname": "services_details_section",
+   "fieldtype": "Section Break",
+   "label": "Services Details"
+  },
+  {
+   "fieldname": "stakeholder_name",
+   "fieldtype": "Data",
+   "label": "Stakeholder Name"
+  },
+  {
+   "fieldname": "column_break_sguq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "stakeholder_email",
+   "fieldtype": "Data",
+   "label": "Stakeholder Email"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-14 15:26:42.632519",
+ "modified_by": "Administrator",
+ "module": "Data Management",
+ "name": "subsidiary organization",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "B2B Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "STC Core Project Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1
+}
